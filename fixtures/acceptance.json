@@ -1,0 +1,42 @@
+{
+  "context": {
+    "required_skills": [
+      "python",
+      "sql"
+    ],
+    "salary": "9000",
+    "commute_minutes": 25,
+    "prior_exposures": 1,
+    "capacity": 20,
+    "vacancy": {
+      "id": "vacancy-1",
+      "required_skills": [
+        "python",
+        "sql"
+      ],
+      "salary": "9000",
+      "commute_minutes": 25,
+      "work_mode": "onsite"
+    },
+    "exposures": {
+      "vacancy-1": 1
+    }
+  },
+  "items": [
+    {
+      "id": "candidate-1",
+      "owner_id": "candidate-1",
+      "skills": [
+        "python",
+        "sql",
+        "etl"
+      ],
+      "minimum_salary": "6000",
+      "maximum_commute": 45,
+      "demand": 1,
+      "amount": "0",
+      "effective_from": "2026-11-16",
+      "request_key": "acceptance-1"
+    }
+  ]
+}
